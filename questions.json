@@ -1,0 +1,329 @@
+[
+  {
+    "id": "c_2025_01_r_t1",
+    "image_src": "cermatOtazky/c_2025_01_r_t1.png",
+    "context_image": null,
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "B",
+    "q_number": 1
+  },
+  {
+    "id": "c_2025_02_r_t1",
+    "image_src": "cermatOtazky/c_2025_02_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text2-4_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "D",
+    "q_number": 2
+  },
+  {
+    "id": "c_2025_03_r_t1",
+    "image_src": "cermatOtazky/c_2025_03_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text2-4_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "D",
+    "q_number": 3
+  },
+  {
+    "id": "c_2025_04_r_t1",
+    "image_src": "cermatOtazky/c_2025_04_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text2-4_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "D",
+    "q_number": 4
+  },
+  {
+    "id": "c_2025_05_r_t1",
+    "image_src": "cermatOtazky/c_2025_05_r_t1.png",
+    "context_image": null,
+    "type": "group_abcd",
+    "points": 3,
+    "options": ["A", "B", "C", "D", "E"],
+    "sub_questions": [
+      {"label": "5.1", "correct": "D"}, 
+      {"label": "5.2", "correct": "A"},
+      {"label": "5.3", "correct": "C"}
+    ],
+    "q_number": 5
+  },
+  {
+    "id": "c_2025_06_r_t1",
+    "image_src": "cermatOtazky/c_2025_06_r_t1.png",
+    "context_image": null,
+    "type": "open",
+    "points": 3,
+    "correct_answer": ["domorodý", "mnohočetný", "bohudík","domorody", "mnohocetny", "bohudik"],
+    "q_number": 6
+  },
+  {
+    "id": "c_2025_07_r_t1",
+    "image_src": "cermatOtazky/c_2025_07_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text7-11_r_t1.png",
+    "type": "true_false_group",
+    "points": 2,
+    "sub_questions": [
+      {"label": "7.1", "correct": false}, 
+      {"label": "7.2", "correct": true},
+      {"label": "7.3", "correct": false},
+      {"label": "7.4", "correct": false}
+    ],
+    "q_number": 7
+  },
+  {
+    "id": "c_2025_08_r_t1",
+    "image_src": "cermatOtazky/c_2025_08_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text7-11_r_t1.png",
+    "type": "open",
+    "points": 3,
+    "correct_answer": ["zloději", "příznivců", "zvonaře"],
+    "q_number": 8
+  },
+  {
+    "id": "c_2025_09_r_t1",
+    "image_src": "cermatOtazky/c_2025_09_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text7-11_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "C",
+    "q_number": 9
+  },
+  {
+    "id": "c_2025_10_r_t1",
+    "image_src": "cermatOtazky/c_2025_10_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text7-11_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "C",
+    "q_number": 10
+  },
+  {
+    "id": "c_2025_11_r_t1",
+    "image_src": "cermatOtazky/c_2025_11_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text7-11_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "A",
+    "q_number": 11
+  },
+  {
+    "id": "c_2025_12_r_t1",
+    "image_src": "cermatOtazky/c_2025_12_r_t1.png",
+    "context_image": null,
+    "type": "abcd",
+    "points": 1,
+    "correct_answer": "A",
+    "q_number": 12
+  },
+  {
+    "id": "c_2025_13_r_t1",
+    "image_src": "cermatOtazky/c_2025_13_r_t1.png",
+    "context_image": null,
+    "type": "true_false_group",
+    "points": 2,
+    "sub_questions": [
+      {"label": "13.1", "correct": true}, 
+      {"label": "13.2", "correct": true},
+      {"label": "13.3", "correct": true},
+      {"label": "13.4", "correct": true}
+    ],
+    "q_number": 13
+  },
+  {
+    "id": "c_2025_14_r_t1",
+    "image_src": "cermatOtazky/c_2025_14_r_t1.png",
+    "context_image": null,
+    "type": "multi_open",
+    "points": 2,
+    "sub_questions": [
+        {"label": "14.1", "correct_answer": ["obou"]},
+        {"label": "14.2", "correct_answer": ["nabízenou"]}
+    ],
+    "q_number": 14
+  },
+  {
+    "id": "c_2025_15_r_t1",
+    "image_src": "cermatOtazky/c_2025_15_r_t1.png",
+    "context_image": null,
+    "type": "ordering",
+    "points": 3,
+    "options": ["A", "B", "C", "D", "E", "F"],
+    "correct_answer": ["E", "B", "D", "C","A","F"],
+    "q_number": 15
+  },
+  {
+    "id": "c_2025_16_r_t1",
+    "image_src": "cermatOtazky/c_2025_16_r_t1.png",
+    "context_image": null,
+    "type": "open",
+    "points": 4,
+    "q_number": 16,
+    "correct_answer": ["kamenný", "zprostředkují", "včelí", "náramně"]
+  },
+  {
+    "id": "c_2025_17_r_t1",
+    "image_src": "cermatOtazky/c_2025_17_r_t1.png",
+    "context_image": null,
+    "type": "abcd",
+    "points": 1,
+    "q_number": 17,
+    "correct_answer": "B"
+  },
+  {
+    "id": "c_2025_18_r_t1",
+    "image_src": "cermatOtazky/c_2025_18_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text18-23_r_t1.png",
+    "type": "true_false_group",
+    "points": 2,
+    "q_number": 18,
+    "sub_questions": [
+      {"label": "18.1", "correct": false}, 
+      {"label": "18.2", "correct": true},
+      {"label": "18.3", "correct": false},
+      {"label": "18.4", "correct": false}
+    ]
+  },
+  {
+    "id": "c_2025_19_r_t1",
+    "image_src": "cermatOtazky/c_2025_19_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text18-23_r_t1.png",
+    "type": "multi_open",
+    "points": 1,
+    "q_number": 19,
+    "sub_questions": [
+      {
+        "label": "19.1",
+        "correct": ["příčiny","příčinné","důvodu","důvodové"]
+      },
+      {
+        "label": "19.2",
+        "correct": ["času","časové"]
+      }
+    ]
+  },
+  {
+    "id": "c_2025_20_r_t1",
+    "image_src": "cermatOtazky/c_2025_20_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text18-23_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 20,
+    "correct_answer": "D"
+  },
+  {
+    "id": "c_2025_21_r_t1",
+    "image_src": "cermatOtazky/c_2025_21_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text18-23_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 21,
+    "correct_answer": "C"
+  },
+  {
+    "id": "c_2025_22_r_t1",
+    "image_src": "cermatOtazky/c_2025_22_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text18-23_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 22,
+    "correct_answer": "A"
+  },
+  {
+    "id": "c_2025_23_r_t1",
+    "image_src": "cermatOtazky/c_2025_23_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text18-23_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 23,
+    "correct_answer": "C"
+  },
+  {
+    "id": "c_2025_24_r_t1",
+    "image_src": "cermatOtazky/c_2025_24_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text24-27_r_t1.png",
+    "type": "true_false_group",
+    "points": 1,
+    "q_number": 24,
+    "sub_questions": [
+      {
+        "label": "24.1",
+        "correct": false
+      },
+      {
+        "label": "24.2",
+        "correct": true
+      },
+      {
+        "label": "24.3",
+        "correct": true
+      },
+      {
+        "label": "24.4",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "c_2025_25_r_t1",
+    "image_src": "cermatOtazky/c_2025_25_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text24-27_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 25,
+    "correct_answer": "C"
+  },
+  {
+    "id": "c_2025_26_r_t1",
+    "image_src": "cermatOtazky/c_2025_26_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text24-27_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 26,
+    "correct_answer": "B"
+  },
+  {
+    "id": "c_2025_27_r_t1",
+    "image_src": "cermatOtazky/c_2025_27_r_t1.png",
+    "context_image": "cermatOtazky/c_2025_text24-27_r_t1.png",
+    "type": "abcd",
+    "points": 1,
+    "q_number": 27,
+    "correct_answer": "C"
+  },
+  {
+    "id": "c_2025_28_r_t1",
+    "image_src": "cermatOtazky/c_2025_28_r_t1.png",
+    "context_image": null,
+    "type": "abcd",
+    "points": 1,
+    "q_number": 28,
+    "correct_answer": "D"
+  },
+  {
+    "id": "c_2025_29_r_t1",
+    "image_src": "cermatOtazky/c_2025_29_r_t1.png",
+    "context_image": null,
+    "type": "open",
+    "points": 1,
+    "q_number": 29,
+    "correct_answer": "vařený"
+  },
+  {
+    "id": "c_2025_30_r_t1",
+    "image_src": "cermatOtazky/c_2025_30_r_t1.png",
+    "context_image": null,
+    "type": "group_abcd",
+    "points": 1,
+    "q_number": 30,
+    "options": ["A", "B", "C", "D", "E", "F"],
+    "sub_questions": [
+      {"label": "30.1", "correct_answer": "A"},
+      {"label": "30.2", "correct_answer": "D"},
+      {"label": "30.3", "correct_answer": "B"},
+      {"label": "30.4", "correct_answer": "E"}
+
+    ]
+  }
+]
