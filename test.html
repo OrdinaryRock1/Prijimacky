@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probíhá test | TestniTo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+    <div class="test-wrapper">
+        
+        <div id="test-interface">
+            
+            <div class="test-header-bar">
+                <div class="timer-badge">
+                    <span class="timer-icon">⏱</span>
+                    <span id="timer">00:00</span>
+                </div>
+                <button id="finish-btn" class="finish-btn">Ukončit test</button>
+            </div>
+
+            <div id="navigation-grid" class="navigation-grid">
+                </div>
+
+            <div id="quiz-container">
+                </div>
+
+            <div class="controls">
+                <button id="prev-btn" onclick="changeQuestion(-1)" disabled>← Předchozí</button>
+                <button id="next-btn" onclick="changeQuestion(1)">Další →</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="result-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Test dokončen!</h2>
+            <p id="score-text">Tvé skóre: -- / --</p>
+            <div class="modal-buttons">
+                <button onclick="reviewMistakes()" class="primary-btn">Projít chyby</button>
+                <button onclick="window.close();" class="secondary-btn">Zavřít test</button>
+            </div>
+        </div>
+    </div>
+
+    <button id="exit-review-btn" class="hidden floating-exit-btn" onclick="window.location.href='index.html'">
+        ✕ Opustit test
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

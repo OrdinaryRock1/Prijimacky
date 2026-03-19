@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přijímačky Nanečisto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo" style="cursor: pointer;" onclick="window.location.reload();">TestniTo</div>
+        <nav class="main-nav">
+            <a href="#about-section">O aplikaci</a>
+            <a href="#guide-section">Návod</a>
+            <a href="mailto:info@testnito.cz">Kontakt / Nahlásit chybu</a>
+        </nav>
+    </header>
+
+    <div id="start-screen">
+        
+        <div class="hero">
+            <div class="hero-left">
+                <h1>Procvičuj přijímací testy – čeština i matematika.</h1>
+                <p>Náhodné sestavy z reálných úloh pro tvou nejlepší přípravu.</p>
+                <div class="hero-buttons">
+                    <button class="primary-btn" onclick="showSubjectMenu('czech')">Čeština</button>
+                    <button class="primary-btn" onclick="showSubjectMenu('math')">Matematika</button>
+                    <button class="secondary-btn" onclick="startPractice('mix')">Mix (Procvičování)</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="test1.png" alt="Ilustrace k učení" id="hero-img-placeholder">
+            </div>
+        </div>
+
+        <div id="subject-menu" class="hidden">
+            <h2 id="subject-title">Výběr testu</h2>
+            
+            <div class="subject-options-grid">
+                
+                <div class="option-card">
+                    <h3>Začít test</h3>
+                    <p id="standard-test-desc">Mix otázek ze všech roků.</p>
+                    <button class="action-btn" id="btn-standard-test">Spustit simulaci</button>
+                </div>
+
+                <div class="option-card">
+                    <h3>Vybrat originální test</h3>
+                    <p>Vyber si konkrétní test z minulých let.</p>
+                    <select id="specific-test-select" class="styled-select">
+                        </select>
+                    <button class="action-btn" id="btn-specific-test">Spustit tento test</button>
+                </div>
+
+                <div class="option-card">
+                    <h3>Procvičování</h3>
+                    <p>Čas neomezený. Zvol si počet otázek.</p>
+                    <div class="input-group">
+                        <input type="number" id="custom-count" value="15" min="1" max="50" class="styled-input">
+                        <button class="action-btn" id="btn-custom-practice">Procvičovat</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            <p class="subject-footer-text">Po dokončení uvidíš výsledek, správné odpovědi a kde ses spletl.</p>
+        </div>
+    </div>
+
+    <section id="guide-section" class="info-section">
+            <h2>Jak to funguje?</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Vyber si předmět</h3>
+                    <p>Zvol si matematiku nebo češtinu v hlavní nabídce nahoře.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Zvol režim testu</h3>
+                    <p>Vyzkoušej si reálný test na čas, mix otázek, nebo zvol volné procvičování bez stresu.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Vyřeš úlohy</h3>
+                    <p>Během testu můžeš pomocí spodní navigace nebo čísel libovolně přeskakovat mezi otázkami.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Zkontroluj chyby</h3>
+                    <p>Po ukončení testu uvidíš své skóre. U chybných odpovědí ti ukážeme správné řešení.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-section" class="info-section">
+            <h2>O aplikaci TestniTo</h2>
+            <div class="about-content">
+                <p><strong>TestniTo</strong> je nezávislý projekt vytvořený pro žáky 9. tříd, kteří se připravují na jednotné přijímací zkoušky na střední školy. Naším cílem je poskytnout moderní, rychlé a bezplatné prostředí pro efektivní procvičování.</p>
+                <ul>
+                    <li>📝 <strong>Reálná data:</strong> Všechny otázky vycházejí z oficiálních testů Cermat z minulých let.</li>
+                    <li>⏱️ <strong>Časový limit:</strong> Simulace reálných podmínek s odpočítáváním (70 min matematika, 60 min čeština).</li>
+                    <li>💡 <strong>Chytré vyhodnocení:</strong> Aplikace automaticky boduje složité otázky, pozná překlepy a správně seřadí tvé odpovědi.</li>
+                    <li>🔒 <strong>Bezpečnost a rychlost:</strong> Aplikace je bleskově rychlá a běží na moderní cloudové databázi.</li>
+                </ul>
+            </div>
+        </section>
+
+    <footer class="main-footer">
+        <p>Kontakt: info@testnito.cz</p>
+    </footer>
+
+    
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
