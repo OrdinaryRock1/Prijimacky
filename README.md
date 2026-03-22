@@ -1,4 +1,4 @@
-# Dokumentace k projektu: Přijímačky Nanečisto (TestniTo)
+# Dokumentace k projektu: TestniTo
 
 **Název práce:** TestniTo
 **Jméno a příjmení:** Trung Hai Hoang
